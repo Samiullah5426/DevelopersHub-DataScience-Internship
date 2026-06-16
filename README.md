@@ -45,3 +45,25 @@ Identify bank customers likely to leave.
 - Age is the #1 factor driving churn
 - German customers churn more than others
 - Model achieved good accuracy on test data
+
+- ## Task 4: Predicting Insurance Claim Amounts
+### Objective
+Estimate medical insurance charges based on personal data.
+### Approach
+- Visualized BMI, Age, and Smoking impact on charges
+- Trained Linear Regression model
+### Results
+- Smokers pay significantly higher charges
+- MAE: 4186.51 | RMSE: 5799.59
+
+---
+
+## Task 5: Personal Loan Acceptance Prediction
+### Objective
+Predict which customers will accept a personal loan offer.
+### Approach
+- Explored age, income, and education features
+- Trained Decision Tree Classifier
+### Results
+- Income is the strongest predictor of loan acceptance
+- Higher education customers accept loans more often
